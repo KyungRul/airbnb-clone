@@ -4,7 +4,7 @@ import React from "react"
 export default function Navbar() {
   return (
     <nav>
-      <img src={require("../images/airbnb-logo.png")} className={"nav--logo"}/>
+      <img src={`${process.env.PUBLIC_URL}/images/airbnb-logo.png`} className={"nav--logo"}/>
     </nav>
   )
 }
